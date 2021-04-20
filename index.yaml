@@ -1,0 +1,9 @@
+ProjectTitle: Trace Studio
+
+PageList:
+  - file: homepage.html
+    ready: 100
+  - file: portfolio.html
+    ready: 100
+  - file: career.html
+    ready: 100

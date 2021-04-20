@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="ico-mono-arrow-fat" viewBox="0 0 16 26">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.909 14.708c-.015.015-.035.019-.05.033L4.492 25.109a2.4 2.4 0 01-3.394-3.395l8.711-8.711-8.711-8.711A2.4 2.4 0 014.492.898l10.367 10.367c.015.014.035.018.05.033.47.47.704 1.088.702 1.705a2.393 2.393 0 01-.702 1.705z"/>
+</symbol><symbol id="ico-mono-arrow-right" viewBox="0 0 10 12">
+    <path d="M9.229 6.232L.209.975v10.513l9.02-5.256z"/>
+</symbol><symbol id="ico-mono-calendar" viewBox="0 0 32 29">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.5 11.333h-29V26A1.5 1.5 0 003 27.5h26a1.5 1.5 0 001.5-1.5V11.333zm0-1.5h-29V6A1.5 1.5 0 013 4.5h26A1.5 1.5 0 0130.5 6v3.833zM32 6a3 3 0 00-3-3H3a3 3 0 00-3 3v20a3 3 0 003 3h26a3 3 0 003-3V6z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.25 7V0h1.5v7h-1.5z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.25 7V0h1.5v7h-1.5z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.25 7V0h1.5v7h-1.5z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 17.5H6v-3h4v3z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 23.5H6v-3h4v3z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M26 17.5h-4v-3h4v3z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M26 23.5h-4v-3h4v3z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M18 17.5h-4v-3h4v3z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M18 23.5h-4v-3h4v3z"/>
+</symbol><symbol id="ico-mono-close" viewBox="0 0 20 20">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.248L1.181.067l8.786 8.785L18.752.067l1.181 1.181-8.785 8.785 8.785 8.786L18.752 20l-8.785-8.785L1.18 20 0 18.819l8.785-8.786L0 1.248z"/>
+</symbol><symbol id="ico-mono-email" viewBox="0 0 49 35">
+    <g fill-rule="evenodd">
+        <path d="M44.49 0c2.338 0 4.13 1.781 4.13 3.813v1.272l-5.402 3.813-19.067 13.029L5.402 8.897v26.059h-1.27C1.791 34.956 0 33.175 0 31.143V3.813C0 1.783 1.793.001 4.131 0l20.02 14.936L44.49 0z" fill-rule="nonzero"/>
+        <path d="M48.62 5.085v26.058c-.092 2.737-1.316 3.765-5.402 3.813V8.898l5.403-3.813z" fill-rule="nonzero"/>
+        <path d="M3.813 0h40.765v5.461H3.813z"/>
+        <path d="M4.767 29.554h38.451v5.402H4.767z"/>
+    </g>
+</symbol><symbol id="ico-mono-search" viewBox="0 0 27 27">
+    <path d="M26.308 24.415l-4.947-4.907a12 12 0 10-1.854 1.853l4.907 4.907a1.334 1.334 0 001.893 0 1.334 1.334 0 000-1.854zm-14.28-3.054a9.333 9.333 0 110-18.666 9.333 9.333 0 010 18.666z"/>
+</symbol></svg>

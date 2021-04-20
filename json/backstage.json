@@ -1,0 +1,69 @@
+{
+  "list": [
+    {
+      "image": "img/backstage/backstage-1.jpg",
+      "image2x": "img/backstage/backstage-1@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-2.jpg",
+      "image2x": "img/backstage/backstage-2@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-3.jpg",
+      "image2x": "img/backstage/backstage-3@2x.jpg"
+    },
+    {
+      "wide": true,
+      "image": "img/backstage/backstage-4.jpg",
+      "image2x": "img/backstage/backstage-4@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-5.jpg",
+      "image2x": "img/backstage/backstage-5@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-6.jpg",
+      "image2x": "img/backstage/backstage-6@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-7.jpg",
+      "image2x": "img/backstage/backstage-7@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-8.jpg",
+      "image2x": "img/backstage/backstage-8@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-9.jpg",
+      "image2x": "img/backstage/backstage-9@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-10.jpg",
+      "image2x": "img/backstage/backstage-10@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-11.jpg",
+      "image2x": "img/backstage/backstage-11@2x.jpg"
+    },
+    {
+      "hidden": { "hd": true },
+      "image": "img/backstage/backstage-12.jpg",
+      "image2x": "img/backstage/backstage-12@2x.jpg"
+    },
+    {
+      "hidden": { "hd": true },
+      "image": "img/backstage/backstage-13.jpg",
+      "image2x": "img/backstage/backstage-13@2x.jpg"
+    },
+    {
+      "image": "img/backstage/backstage-14.jpg",
+      "image2x": "img/backstage/backstage-14@2x.jpg"
+    },
+    {
+      "wide": true,
+      "hidden": { "hd": true },
+      "image": "img/backstage/backstage-15.jpg",
+      "image2x": "img/backstage/backstage-15@2x.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "meta": { "total": 30 },
+  "list": [
+    {
+      "id": 13,
+      "href": "#",
+      "image": "img/partners/logo-splash_damage.png"
+    },
+    {
+      "id": 14,
+      "href": "#",
+      "image": "img/partners/logo-romero_games.png"
+    },
+    {
+      "id": 15,
+      "href": "#",
+      "image": "img/partners/logo-google.png"
+    },
+    {
+      "id": 16,
+      "href": "#",
+      "image": "img/partners/logo-hi-rez_studios.png"
+    },
+    {
+      "id": 17,
+      "href": "#",
+      "image": "img/partners/logo-imangi_studios.png"
+    },
+    {
+      "id": 18,
+      "href": "#",
+      "image": "img/partners/logo-wargaming.png"
+    }
+  ]
+}

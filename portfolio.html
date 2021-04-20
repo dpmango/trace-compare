@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- MADE WITH LOVE BY <> KHMELEVSKOY & ASSOCIATES </> www.khmelevskoy.co-->
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <!-- appstore links-->
+    <!-- seo meta-->
+    <meta name="description" content="Meta description">
+    <meta name="keywords" content="Key, words">
+    <meta name="author" content="Site name">
+    <!-- og meta-->
+    <meta property="og:title" content="Site name">
+    <meta property="og:url" content="https://projectname.surge.sh">
+    <meta property="og:image" content="https://projectname.surge.sh/img/og/1_1080х607.jpg">
+    <meta property="og:description" content="Site name">
+    <meta name="twitter:title" content="Site name">
+    <meta name="twitter:description" content="Site name">
+    <meta name="twitter:image:src" content="https://projectname.surge.sh/img/og/1_1200х628.jpg">
+    <meta name="twitter:url" content="https://projectname.surge.sh">
+    <!-- remove for production-->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+
+  <body>
+    <!-- place where pjax bindings happen's-->
+    <div id="barba-wrapper">
+      <!-- HEADER-->
+      <header class="header">
+        <div class="header__wrapper">
+          <a class="header__logo" href="homepage.html">
+            <svg class="ico ico-color-logo">
+              <use xlink:href="img/sprite-color.svg#ico-color-logo"></use>
+            </svg>
+          </a>
+          <ul class="header__menu">
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="homepage.html#about">About us</a>
+            </li>
+            <li>
+              <a href="page.html">Services</a>
+            </li>
+            <li>
+              <a href="homepage.html#team">Team</a>
+            </li>
+            <li>
+              <a href="career.html">Careers</a>
+            </li>
+          </ul>
+          <div class="header__cta">
+            <a class="btn btn-primary" href="#">Contact us</a>
+          </div>
+          <div class="header__hamburger js-hamburger">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- MOBILE NAVI-->
+      <div class="mobile-navi">
+        <div class="mobile-navi__wrapper">
+          <ul class="mobile-navi__menu">
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="homepage.html#about">About us</a>
+            </li>
+            <li>
+              <a href="page.html">Services</a>
+            </li>
+            <li>
+              <a href="homepage.html#team">Team</a>
+            </li>
+            <li>
+              <a href="career.html">Careers</a>
+            </li>
+          </ul>
+          <div class="mobile-navi__cta">
+            <a class="btn btn-primary" href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <!-- what should be changed with every pjax-->
+      <div class="page dark">
+        <div class="page__content">
+          <!-- PORTFOLIO-->
+          <div class="portfolio">
+            <!-- List-->
+            <div class="portfolio-list">
+              <ul class="portfolio-list__nav js-stick-to-window js-portfolio-categories" data-position="both"
+               data-keep-container="true" data-stop="&lt;1024">
+                <li>
+                  <a href="#" data-category="characters">Characters</a>
+                </li>
+                <li>
+                  <a href="#" data-category="environment">Environment</a>
+                </li>
+                <li>
+                  <a href="#" data-category="vechicles">vechicles</a>
+                </li>
+                <li>
+                  <a href="#" data-category="weapons">Weapons</a>
+                </li>
+                <li>
+                  <a href="#" data-category="foliage">Foliage</a>
+                </li>
+              </ul>
+              <div class="portfolio-list__masonry js-masonry-portfolio xl-hidden">
+                <div class="grid-sizer"></div>
+                <a class="p-category grid-item p-category--wide">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-1.jpg" srcset="img/portfolio/portfolio-1@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-2.jpg" srcset="img/portfolio/portfolio-2@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-3.jpg" srcset="img/portfolio/portfolio-3@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-4.jpg" srcset="img/portfolio/portfolio-4@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-5.jpg" srcset="img/portfolio/portfolio-5@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-6.jpg" srcset="img/portfolio/portfolio-6@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-7.jpg" srcset="img/portfolio/portfolio-7@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-8.jpg" srcset="img/portfolio/portfolio-8@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+                <a class="p-category grid-item">
+                  <div class="p-category__wrapper" js-to-section data-to=".portfolio-project">
+                    <div class="p-category__image">
+                      <img src="img/portfolio/portfolio-9.jpg" srcset="img/portfolio/portfolio-9@2x.jpg 2x">
+                    </div>
+                    <div class="p-category__info">
+                      <div class="p-category__name">Ghost of Tsusima</div>
+                      <div class="p-category__categories">weapon / vechicles / concept / character / foliage</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="portfolio-list__more xl-hidden">
+                <div class="swiper-nav-arrows">
+                  <div class="swiper-nav-arrows__label">show more
+                    <br />work
+                  </div>
+                  <div class="swiper-nav-arrows__clickable">
+                    <div class="swiper-nav-arrow js-portfolio-prev">
+                      <div class="hexagon">
+                        <div class="hexagon__wrapper">
+                          <div class="hexagon__image">
+                            <svg class="ico ico-mono-arrow-right">
+                              <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-nav-arrow js-portfolio-next">
+                      <div class="hexagon">
+                        <div class="hexagon__wrapper">
+                          <div class="hexagon__image">
+                            <svg class="ico ico-mono-arrow-right">
+                              <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio project-->
+            <div class="portfolio-project">
+              <!-- main slider-->
+              <div class="portfolio-project__slider">
+                <div class="swiper-container js-swiper-portfolio-project">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-index="0">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="1">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="2">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="3">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="4">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="5">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="6">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="7">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="8">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="9">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="10">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="11">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                    <div class="swiper-slide" data-index="12">
+                      <div class="scaler" data-ar="16:9"
+                       style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_256,c_fill,e_blur:400/v1617638616/trace/portfolio-project.jpg)">
+                        <img js-lazy data-src="img/portfolio/portfolio-project.jpg"
+                         data-srcset="img/portfolio/portfolio-project@2x.jpg 2x">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-nav-full swiper-nav-full--prev swiper-portfolio-project-prev">
+                    <svg class="ico ico-mono-arrow-right">
+                      <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                    </svg>
+                  </div>
+                  <div class="swiper-nav-full swiper-nav-full--next swiper-portfolio-project-next">
+                    <svg class="ico ico-mono-arrow-right">
+                      <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+                <!-- nav-->
+                <div class="portfolio-project__nav">
+                  <div class="portfolio-project__nav-wrapper">
+                    <div class="swiper-nav-arrow swiper-nav-arrow--prev js-portfolio-project-thumbs-prev">
+                      <div class="hexagon">
+                        <div class="hexagon__wrapper">
+                          <div class="hexagon__image">
+                            <svg class="ico ico-mono-arrow-right">
+                              <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-container js-swiper-portfolio-project-thumbs">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-index="0">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-1.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-1@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="1">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-2.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-2@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="2">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-3.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-3@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="3">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-4.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-4@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="4">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-5.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-5@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="5">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-6.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-6@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="6">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-7.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-7@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="7">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-8.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-8@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="8">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-1.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-1@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="9">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-2.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-2@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="10">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-3.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-3@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="11">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-4.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-4@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide" data-index="12">
+                          <div class="hexagon"
+                           data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Project title&lt;/div&gt;&lt;div class='tooltip__description'&gt;3D Art &amp; Animation&lt;/div&gt;&lt;/div&gt;">
+                            <div class="hexagon__wrapper">
+                              <div class="hexagon__image">
+                                <img src="img/portfolio/portfolio-thumb-5.jpg"
+                                 srcset="img/portfolio/portfolio-thumb-5@2x.jpg 2x">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-nav-arrow swiper-nav-arrow--next js-portfolio-project-thumbs-next">
+                      <div class="hexagon">
+                        <div class="hexagon__wrapper">
+                          <div class="hexagon__image">
+                            <svg class="ico ico-mono-arrow-right">
+                              <use xlink:href="img/sprite-mono.svg#ico-mono-arrow-right"></use>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="portfolio-project__download" href="#" target="_blank"
+                   data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Download&lt;/div&gt;&lt;div class='tooltip__description'&gt;Art pack&lt;/div&gt;&lt;/div&gt;">
+                    <svg class="ico ico-color-download">
+                      <use xlink:href="img/sprite-color.svg#ico-color-download"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <!-- info-->
+              <div class="portfolio-project__info project-info">
+                <a class="portfolio-project__download portfolio-project__download--mobile" href="#" target="_blank"
+                 data-tippy="&lt;div class='tooltip'&gt;&lt;div class='tooltip__title'&gt;Download&lt;/div&gt;&lt;div class='tooltip__description'&gt;Art pack&lt;/div&gt;&lt;/div&gt;">
+                  <svg class="ico ico-color-download">
+                    <use xlink:href="img/sprite-color.svg#ico-color-download"></use>
+                  </svg>
+                </a>
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-12 col-hd-10 col-lg-16">
+                      <div class="project-info__title h1-title">METRO: EXODUS</div>
+                      <div class="project-info__partner">Partner: <span>ACTIVISION</span>
+                        <span class="separator">\</span>
+                        <span>INFINITY WARD</span>
+                      </div>
+                      <div class="project-info__description">
+                        <div class="project-info__description-wrapper js-more-text" data-id="project">
+                          <p class="p-regular">It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.</p>
+                          <p class="p-regular"> Many desktop publishing packages and web page editors now use Lorem
+                            Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                            sites still in their infancy. Various versions have evolved over the years, sometimes by
+                            accident, sometimes on purpose (injected humour and the like).</p>
+                          <div class="project-info__platform">Platform: PC, PS4, XBOX</div>
+                        </div>
+                        <div class="project-info__description-more js-more-text-trigger" data-id="project">More...</div>
+                      </div>
+                    </div>
+                    <div class="col col-4 col-hd-6 col-lg-16">
+                      <div class="project-info__filters project-filters">
+                        <div class="project-filters__section">
+                          <div class="project-filters__section-title">DIRECTION</div>
+                          <div class="ui-radio">
+                            <input type="radio" name="dir" id="dir_1" checked>
+                            <label for="dir_1">
+                              <span>characters</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="dir" id="dir_2">
+                            <label for="dir_2">
+                              <span>Environment</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="dir" id="dir_3">
+                            <label for="dir_3">
+                              <span>vechicles</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="dir" id="dir_4">
+                            <label for="dir_4">
+                              <span>Weapons</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="dir" id="dir_5">
+                            <label for="dir_5">
+                              <span>Foliage</span>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="project-filters__section">
+                          <div class="project-filters__section-title">Projects</div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_1" checked>
+                            <label for="project_1">
+                              <span>Metro: Exodus</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_2">
+                            <label for="project_2">
+                              <span>Call of duty MW</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_3">
+                            <label for="project_3">
+                              <span>Arctica 1.0</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_4">
+                            <label for="project_4">
+                              <span>Ghost of Tsushima</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_5">
+                            <label for="project_5">
+                              <span>Age of magic</span>
+                            </label>
+                          </div>
+                          <div class="project-filters__section-more lg-hidden">
+                            <a href="#">More projects</a>
+                          </div>
+                        </div>
+                        <div class="project-filters__section project-filters__section--lg">
+                          <div class="project-filters__section-title">Projects</div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_6" checked>
+                            <label for="project_6">
+                              <span>Ghost of Tsushima</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_7">
+                            <label for="project_7">
+                              <span>Age of magic</span>
+                            </label>
+                          </div>
+                          <div class="ui-radio">
+                            <input type="radio" name="project" id="project_8">
+                            <label for="project_8">
+                              <span>Call of duty MW</span>
+                            </label>
+                          </div>
+                          <div class="project-filters__section-more">
+                            <a href="#">More projects</a>
+                          </div>
+                        </div>
+                        <div class="project-filters__cta">
+                          <a class="btn btn-primary" href="#">Download Art pack</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Related-->
+            <div class="portfolio-related xl-hidden">
+              <div class="container">
+                <div class="portfolio-related__title h3-title">Related projects</div>
+                <div class="portfolio-related__grid">
+                  <div class="row">
+                    <div class="col col-4">
+                      <a class="portfolio-related-card" href="#">
+                        <div class="portfolio-related-card__image">
+                          <div class="scaler"
+                           style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_64,c_fill,e_blur:400/v1617638616/trace/portfolio-related-1.jpg)">
+                            <img js-lazy data-src="img/portfolio/portfolio-related-1.jpg"
+                             data-srcset="img/portfolio/portfolio-related-1@2x.jpg 2x">
+                          </div>
+                        </div>
+                        <div class="portfolio-related-card__info">
+                          <div class="portfolio-related-card__title">METRO: eXODUS</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col col-4">
+                      <a class="portfolio-related-card" href="#">
+                        <div class="portfolio-related-card__image">
+                          <div class="scaler"
+                           style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_64,c_fill,e_blur:400/v1617638616/trace/portfolio-related-2.jpg)">
+                            <img js-lazy data-src="img/portfolio/portfolio-related-2.jpg"
+                             data-srcset="img/portfolio/portfolio-related-2@2x.jpg 2x">
+                          </div>
+                        </div>
+                        <div class="portfolio-related-card__info">
+                          <div class="portfolio-related-card__title">METRO: eXODUS</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col col-4">
+                      <a class="portfolio-related-card" href="#">
+                        <div class="portfolio-related-card__image">
+                          <div class="scaler"
+                           style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_64,c_fill,e_blur:400/v1617638616/trace/portfolio-related-3.jpg)">
+                            <img js-lazy data-src="img/portfolio/portfolio-related-3.jpg"
+                             data-srcset="img/portfolio/portfolio-related-3@2x.jpg 2x">
+                          </div>
+                        </div>
+                        <div class="portfolio-related-card__info">
+                          <div class="portfolio-related-card__title">METRO: eXODUS</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col col-4">
+                      <a class="portfolio-related-card" href="#">
+                        <div class="portfolio-related-card__image">
+                          <div class="scaler"
+                           style="background-image: url(https://res.cloudinary.com/dqruxbmfq/image/upload/w_64,c_fill,e_blur:400/v1617638616/trace/portfolio-related-4.jpg)">
+                            <img js-lazy data-src="img/portfolio/portfolio-related-4.jpg"
+                             data-srcset="img/portfolio/portfolio-related-4@2x.jpg 2x">
+                          </div>
+                        </div>
+                        <div class="portfolio-related-card__info">
+                          <div class="portfolio-related-card__title">METRO: eXODUS</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FOOTER :: START-->
+        <footer class="footer">
+          <div class="footer__background section-bg">
+            <img js-lazy data-src="img/footer/background.png" data-srcset="img/footer/background@2x.png 2x">
+          </div>
+          <div class="footer__content">
+            <div class="container">
+              <div class="footer__head section-head">
+                <div class="section-head__back">Contacts</div>
+                <div class="section-head__front">Got any questions? Let’s talk!</div>
+              </div>
+              <form class="footer__form js-validate-form" action="#">
+                <div class="row">
+                  <div class="col col-6 col-hd-5 col-lg-16">
+                    <div class="footer__form-inputs">
+                      <div class="ui-group">
+                        <div class="ui-group__label" for="name">Name <span class="c-primary">*</span>
+                        </div>
+                        <input class="ui-input" name="name" type="text" placeholder="Name" required>
+                      </div>
+                      <div class="ui-group">
+                        <div class="ui-group__label" for="email">E-mail <span class="c-primary">*</span>
+                        </div>
+                        <input class="ui-input" name="email" type="email" placeholder="Name" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-10 col-hd-11 col-lg-16">
+                    <div class="footer__form-textarea">
+                      <div class="ui-group">
+                        <div class="ui-group__label" for="message">Your message <span class="c-primary">*</span>
+                        </div>
+                        <textarea class="ui-input" name="message" rows="5" placeholder="Enter your message here"
+                         required></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__form-cta js-stick-to-window" data-position="both" data-stop="&lt;768">
+                  <button class="btn btn-primary" type="submit">send message</button>
+                </div>
+              </form>
+              <div class="footer__bottom">
+                <div class="footer__copy">
+                  <strong>TRACE STUDIO ltd.co</strong> HQ in Russia,
+                  <br class="br-sm" /> Saint-Petrsburg /
+                  <br class="br-xl" /> Art Production in Russia
+                  <br />© All rights reserved.
+                </div>
+                <div class="footer__socials">
+                  <a href="#" target="_blank">INSTAGRAM</a>
+                  <a href="#" target="_blank">FACEBOOK</a>
+                  <a href="#" target="_blank">TWITTER</a>
+                  <a href="#" target="_blank">ARTSTATION</a>
+                  <a href="#" target="_blank">LINKEDIN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- FOOTER :: END-->
+      </div>
+      <!-- GRID TEST (remove on production)-->
+      <div class="demo-grid">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+            <div class="col">
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="js-show-grid">
+        <span>grid</span>
+      </div>
+      <script src="js/vendor.js"></script>
+      <script src="js/app.js"></script>
+    </div>
+  </body>
+
+</html>
